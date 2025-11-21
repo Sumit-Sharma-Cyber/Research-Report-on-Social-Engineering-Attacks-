@@ -1,0 +1,217 @@
+# Social Engineering Attacks Report
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Types of Social Engineering Attacks](#types-of-social-engineering-attacks)
+   - [1. Phishing](#1-phishing)
+   - [2. Spear Phishing](#2-spear-phishing)
+   - [3. Pretexting](#3-pretexting)
+   - [4. Baiting](#4-baiting)
+   - [5. Quid Pro Quo](#5-quid-pro-quo)
+   - [6. Tailgating / Piggybacking](#6-tailgating--piggybacking)
+   - [7. Vishing (Voice Phishing)](#7-vishing-voice-phishing)
+   - [8. Smishing (SMS Phishing)](#8-smishing-sms-phishing)
+   - [9. Watering Hole Attacks](#9-watering-hole-attacks)
+   - [10. Impersonation and Business Email Compromise (BEC)](#10-impersonation-and-business-email-compromise-bec)
+3. [Case Studies of Real-World Attacks](#case-studies-of-real-world-attacks)
+4. [Prevention and Mitigation Strategies](#prevention-and-mitigation-strategies)
+5. [Conclusion](#conclusion)
+6. [References](#references)
+
+---
+
+## Introduction
+
+Social engineering is a psychological manipulation technique used by cybercriminals to exploit human behavior and trick individuals into revealing confidential information or performing actions that compromise security.  
+Unlike technical attacks that exploit system vulnerabilities, **social engineering targets human trust and error**.  
+
+This report explores the **various forms of social engineering attacks**, analyzes real-world incidents, and provides effective preventive strategies to strengthen human and organizational defenses.
+
+---
+
+## Types of Social Engineering Attacks
+
+### 1. Phishing
+
+#### How It Works
+Phishing involves sending fraudulent emails or messages that appear to come from legitimate organizations, prompting users to click malicious links or provide sensitive information.
+
+#### Impact
+- Theft of credentials and financial data  
+- Malware installation  
+- Unauthorized access to corporate networks  
+
+#### Example
+In 2020, **Twitter employees** were targeted through phishing emails, allowing attackers to access internal tools and compromise high-profile accounts such as those of Elon Musk and Barack Obama.
+
+#### Mitigation
+- Use **email filtering tools**  
+- Educate employees to verify sender authenticity  
+- Implement **multi-factor authentication (MFA)**
+
+---
+
+### 2. Spear Phishing
+
+#### How It Works
+Spear phishing targets specific individuals or organizations using personalized information to increase credibility.
+
+#### Example
+The **2016 DNC breach** was initiated through a spear-phishing email, leading to a major political data leak.
+
+#### Mitigation
+- Conduct **targeted awareness training**  
+- Verify unusual or urgent requests  
+- Use **domain monitoring** to detect spoofed websites
+
+---
+
+### 3. Pretexting
+
+#### How It Works
+The attacker fabricates a false scenario (“pretext”) to trick victims into divulging confidential data or performing actions. Often used to bypass authentication or access restricted areas.
+
+#### Example
+Attackers may pose as IT support to obtain employee login credentials.
+
+#### Mitigation
+- Establish **strict identity verification** protocols  
+- Train employees to validate requests through official channels
+
+---
+
+### 4. Baiting
+
+#### How It Works
+Baiting lures victims with an attractive offer, such as free software or a USB drive labeled “Confidential Data,” which contains malware.
+
+#### Example
+In one experiment, over **45% of employees** plugged in unknown USB drives left in office parking lots, demonstrating the effectiveness of baiting.
+
+#### Mitigation
+- Block **auto-run** features for external drives  
+- Promote awareness of suspicious devices or offers  
+
+---
+
+### 5. Quid Pro Quo
+
+#### How It Works
+Attackers offer a benefit or service (e.g., “free tech support” or “software license”) in exchange for sensitive information or login credentials.
+
+#### Mitigation
+- Verify authenticity of all service requests  
+- Implement **employee security awareness training**
+
+---
+
+### 6. Tailgating / Piggybacking
+
+#### How It Works
+Attackers gain physical access to restricted areas by following authorized personnel through secure doors without proper authentication.
+
+#### Example
+In several data center breaches, attackers entered restricted areas simply by pretending to have forgotten access cards.
+
+#### Mitigation
+- Enforce **badge verification policies**  
+- Install **security access controls** (e.g., turnstiles, mantraps)
+
+---
+
+### 7. Vishing (Voice Phishing)
+
+#### How It Works
+Attackers use phone calls pretending to be legitimate representatives (like a bank or IT department) to extract sensitive information.
+
+#### Example
+During the **COVID-19 pandemic**, several organizations were targeted by vishing scams claiming to offer technical support for remote work systems.
+
+#### Mitigation
+- Use **caller ID verification** systems  
+- Never share credentials via phone  
+
+---
+
+### 8. Smishing (SMS Phishing)
+
+#### How It Works
+Attackers send fraudulent text messages with malicious links or urgent requests to manipulate victims into disclosing personal details.
+
+#### Example
+Users receive texts pretending to be from delivery companies or banks asking them to “verify account information.”
+
+#### Mitigation
+- Avoid clicking on links in unsolicited texts  
+- Verify messages through official apps or websites  
+
+---
+
+### 9. Watering Hole Attacks
+
+#### How It Works
+Attackers compromise websites frequently visited by a specific organization or industry and inject malicious code to target visitors.
+
+#### Example
+In 2013, the **Council on Foreign Relations website** was compromised in a watering hole attack aimed at U.S. government users.
+
+#### Mitigation
+- Keep web browsers and plug-ins updated  
+- Use **network segmentation** and **web filtering**
+
+---
+
+### 10. Impersonation and Business Email Compromise (BEC)
+
+#### How It Works
+Attackers impersonate executives or vendors to trick employees into transferring money or sensitive data.
+
+#### Example
+In 2015, **Ubiquiti Networks** lost over **$46 million** to a BEC scam involving spoofed emails from senior executives.
+
+#### Mitigation
+- Verify payment and data transfer requests via **secondary confirmation**  
+- Use **digital signature verification**
+
+---
+
+## Case Studies of Real-World Attacks
+
+| Year | Organization | Attack Type | Impact |
+|------|---------------|-------------|--------|
+| 2016 | Democratic National Committee (DNC) | Spear Phishing | Data breach and political fallout |
+| 2017 | Google & Facebook | Business Email Compromise | Loss of over $100 million |
+| 2020 | Twitter | Phishing | Compromise of verified accounts |
+| 2021 | Colonial Pipeline | Phishing and Credential Theft | Fuel supply disruption in the U.S. |
+| 2022 | Marriott International | Pretexting | Data of 20 GB stolen from employee access |
+
+---
+
+## Prevention and Mitigation Strategies
+
+1. **Employee Awareness Training** – Regular security workshops and phishing simulations.  
+2. **Strong Authentication Mechanisms** – Implement multi-factor authentication (MFA) across systems.  
+3. **Verification Protocols** – Always confirm identity before sharing sensitive information.  
+4. **Email and Web Filtering** – Block malicious domains and attachments.  
+5. **Incident Response Plans** – Establish clear procedures for reporting suspicious activities.  
+6. **Least Privilege Principle** – Restrict user access to only necessary resources.  
+7. **Use of Security Tools** – Deploy endpoint protection, firewalls, and intrusion detection systems.  
+8. **Regular Security Audits** – Identify vulnerabilities in communication and access control systems.  
+
+---
+
+## Conclusion
+
+Social engineering remains one of the most prevalent and dangerous forms of cyberattack because it exploits human psychology rather than technology.  
+The best defense lies not just in software, but in **awareness, verification, and vigilance**.  
+By cultivating a strong security culture and implementing robust policies, organizations can significantly reduce their susceptibility to manipulation and deception.
+
+---
+
+## References
+
+- Verizon Data Breach Investigations Report (DBIR), 2024  
+- Kaspersky Social Engineering Threat Report  
+- Cisco Annual Cybersecurity Report  
+- OWASP Social Engineering Guidelines  
+- NIST Special Publication 800-61: Computer Security Incident Handling Guide  
